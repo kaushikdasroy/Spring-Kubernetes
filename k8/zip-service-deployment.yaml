@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: zip-service
-          image: konuratdocker/spark-examples:zipcode-service
+          image: kaushikdasroy/spark-examples:zipcode-service
           command: ["java"]
           args: ["-jar","/app.jar","8085"]
           ports:

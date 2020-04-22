@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: zip-web
-          image: konuratdocker/spark-examples:web-service
+          image: kaushikdasroy/spark-examples:web-service
           command: ["java"]
           args: ["-jar","/app.jar","zipcode-service.default.svc.cluster.local:8085","3334"]
           ports:
