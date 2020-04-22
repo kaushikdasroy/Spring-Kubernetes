@@ -83,7 +83,7 @@
 				<version>1.3.6</version>
 				<configuration>
 					<tag>web-service</tag>
-					<repository>konuratdocker/spark-examples</repository>
+					<repository>kaushikdasroy/spark-examples</repository>
 					<imageTags>
 						<imageTag>web-service</imageTag>
 					</imageTags>
